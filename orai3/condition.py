@@ -62,3 +62,4 @@ if str1[0:5] == str2[0:5]:
     print("Az első 5 karaktere megegyezik")
 else:
     print("Nem azonos az első 5 karaktere.")
+
