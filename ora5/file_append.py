@@ -1,3 +1,4 @@
 fileobject = open("lorem.txt", "a")
-fileobject.write("alma")
+fileobject.write("körte")
+fileobject.flush()
 fileobject.close()

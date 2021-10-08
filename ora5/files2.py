@@ -11,6 +11,7 @@ for line in fileobject1:
     fileobject2.write(line)
     fileobject3.write(line.replace(" ", "   "))
 
+
 fileobject1.close()
 fileobject2.close()
 fileobject3.close()
