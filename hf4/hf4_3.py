@@ -1,4 +1,5 @@
-pascal_n = int(input("Adja meg az n. sort: "))
-
-for i in range(pascal_n):
-    print()
+n = int(input("Adja meg az n. sort: "))
+i = 1
+while i <= n:
+    print(11**(n-1))
+    i=i+1
