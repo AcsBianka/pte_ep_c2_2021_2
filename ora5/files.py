@@ -1,4 +1,10 @@
-filepath = "lorem.py"
-fileobject = open(filepath, "r+")
-print(fileobject.read())
+filepath = "lorem.txt"
+fileobject = open(filepath, "r")
+max_length = 0
+max_row = ""
+for line in fileobject:              #vagy for line in lines:
+    if len(line) > max_length:
+        max_row = line
+        max_length = len(line)
+print(max_row)
 fileobject.close()
